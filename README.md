@@ -36,7 +36,7 @@ You can configure `SimpleAnimation` by passing the following props:
 | - | - | - | - |
 | aim | `"in"`, `"out"` | `"in"` | whether the child component will animate **in** or **out**; for example, if `staticType` is set to `"zoom"` and `aim` is set to `"in"` the child component will zoom in; if `aim` is set to `"out"` the child component will zoom out |
 | animate | boolean | `true` | when `true` the child component will animate, when `false` the child component will not animate |
-| animateOnUpdate | boolean | `true` | when `true` the child component will animate if any of the props change on it's parent `SimpleAnimation` component, when `false` the child component will not animate regardless of `SimpleAnimation`'s props change |
+| animateOnUpdate | boolean | `false` | when `true` the child component will animate if any of the props change on it's parent `SimpleAnimation` component, when `false` the child component will not animate regardless of `SimpleAnimation`'s props change |
 | delay | number | `0` | the length in milliseconds the component will wait before animating |
 | direction | `"down"`, `"left"`, `"right"`, `"up"` | `null` | when `movementType` is set, this is the direction the child component will move |
 | distance | number | `0` | when `movementType` is set, this is the distance the child component will move |
